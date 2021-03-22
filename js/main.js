@@ -1,9 +1,14 @@
-let num1 = 2;
+let num1 = 5;
 let num2 = 5;
 
 const numberSum = (number_1, number_2) => {
-    let sum = number_1 + number_2;
-    return sum;
+    if(number_1 > number_2){
+        return number_1;
+    }else if(number_1 < number_2){
+        return number_2;
+    }else{
+        return 'liczby są równe';
+    }
 }
 
 
